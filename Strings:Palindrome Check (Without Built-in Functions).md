@@ -15,9 +15,11 @@ To write a Python program to check whether the string `"google"` is a **palindro
 str = "google"
 
 if str == str[::-1] :
+
     print("The given string of charcter is a palindrome")
     
 else :
+
     print("The given string of charcter is not a palindrome")
 
 ## Output
