@@ -14,13 +14,20 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-import re
+import re 
+
 items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+
 lst = []
+
 for i in items:
+
     find = re.search(r'e' , i)
+    
     if not find:
+    
         lst.append(i)
+        
 print(lst)
 ## Output
 <img width="1917" height="517" alt="503478972-aa23e975-9420-4f0b-b5cb-aa52453e9ba8" src="https://github.com/user-attachments/assets/ee449692-8e77-4b26-b649-3fab8d6f2da0" />
