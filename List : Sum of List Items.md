@@ -9,11 +9,11 @@ To write a Python program that calculates the **sum of all elements** in a list.
 3. Print the result.
 
 ## 🧾 Program
-lst = eval(input())   # To get list of elements from user 
+    lst = eval(input())   # To get list of elements from user 
 
-sum = sum(lst)        # To sum the list of elements
+    sum = sum(lst)        # To sum the list of elements
 
-print(sum)            # To print sum
+    print(sum)            # To print sum
 
 ## Output
 <img width="1919" height="500" alt="503477282-95d72874-40bb-4aaf-91dc-76c219c11d2a" src="https://github.com/user-attachments/assets/4a00aa63-c922-4a7f-9a4b-a486e529bc4d" />
